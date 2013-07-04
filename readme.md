@@ -2,13 +2,21 @@
 
 minimum setup for Coveralls.
 
+* [![Build Status](https://travis-ci.org/azu/Coveralls-iOS.png?branch=master)](https://travis-ci.org/azu/Coveralls-iOS)
+* [![Coverage Status](https://coveralls.io/repos/azu/Coveralls-iOS/badge.png?branch=master)](https://coveralls.io/r/azu/Coveralls-iOS?branch=master)
+
 ## How to
 
 ```
 Travis CI 
+	xctool test
    ↓
  	coveralls.sh
- 	cpp-coveralls
+ 		generate gcov 	
+ 		↓
+ 		cpp-coveralls
+ 		↓
+ 		POST
    ↓
 Coveralls
 ```
