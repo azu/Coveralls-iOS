@@ -29,7 +29,7 @@ This project has ``ci`` scheme.
 
 Setting ci scheme for Travis CI.(for xctool)
 
-### case xctool
+### if you use cocoapods & xctool
 
 xctool doesn't support ``Find Implicit Dependencies``.
 
