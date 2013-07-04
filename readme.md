@@ -25,7 +25,7 @@ Coveralls
 
 This project has ``ci`` scheme.
 
-![ci scheme](http://monosnap.com/image/nkFfqfX4ikzUE5U9gDC85jHdq.png)
+![ci scheme](docs/ci_schemes.png)
 
 Setting ci scheme for Travis CI.(for xctool)
 
