@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B5C926D65FA5DFC45CB174 /* NSArray+AL_firstObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C780FA9E56F4BA96E02B /* NSArray+AL_firstObject.m */; };
+		17B5CB83886E0D248893B3B2 /* NSArray+AL_firstObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C780FA9E56F4BA96E02B /* NSArray+AL_firstObject.m */; };
+		17B5CEAA99CE3A9074F6365B /* NSArray+AL_firstObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CC644B084D391F9ECB34 /* NSArray+AL_firstObjectTest.m */; };
 		73E85471178547B100D75127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E85470178547B100D75127 /* Foundation.framework */; };
 		73E85480178547B200D75127 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E8547F178547B200D75127 /* SenTestingKit.framework */; };
 		73E85482178547B200D75127 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E85481178547B200D75127 /* UIKit.framework */; };
@@ -41,6 +44,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		17B5C269C4EB7D5BD5CDF0AE /* NSArray+AL_firstObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AL_firstObject.h"; sourceTree = "<group>"; };
+		17B5C780FA9E56F4BA96E02B /* NSArray+AL_firstObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AL_firstObject.m"; sourceTree = "<group>"; };
+		17B5CC644B084D391F9ECB34 /* NSArray+AL_firstObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AL_firstObjectTest.m"; sourceTree = "<group>"; };
 		73E8546D178547B100D75127 /* libCoveralls-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCoveralls-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E85470178547B100D75127 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		73E85474178547B100D75127 /* Coveralls-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coveralls-iOS-Prefix.pch"; sourceTree = "<group>"; };
@@ -113,6 +119,8 @@
 				73E85473178547B100D75127 /* Supporting Files */,
 				73E854981785480900D75127 /* Math.h */,
 				73E854991785480900D75127 /* Math.m */,
+				17B5C780FA9E56F4BA96E02B /* NSArray+AL_firstObject.m */,
+				17B5C269C4EB7D5BD5CDF0AE /* NSArray+AL_firstObject.h */,
 			);
 			path = "Coveralls-iOS";
 			sourceTree = "<group>";
@@ -131,6 +139,7 @@
 				73E85488178547B200D75127 /* Supporting Files */,
 				73E8549C1785487500D75127 /* MatchTests.h */,
 				73E8549D1785487500D75127 /* MatchTests.m */,
+				17B5CC644B084D391F9ECB34 /* NSArray+AL_firstObjectTest.m */,
 			);
 			path = "Coveralls-iOSTests";
 			sourceTree = "<group>";
@@ -243,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73E8549A1785480900D75127 /* Math.m in Sources */,
+				17B5CB83886E0D248893B3B2 /* NSArray+AL_firstObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +262,8 @@
 			files = (
 				73E8549B1785480900D75127 /* Math.m in Sources */,
 				73E8549E1785487500D75127 /* MatchTests.m in Sources */,
+				17B5C926D65FA5DFC45CB174 /* NSArray+AL_firstObject.m in Sources */,
+				17B5CEAA99CE3A9074F6365B /* NSArray+AL_firstObjectTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
