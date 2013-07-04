@@ -1,0 +1,7 @@
+[
+  "-project", "Coveralls-iOS.xcodeproj",
+  "-scheme", "Coveralls-iOS",
+  "-configuration", "Debug",
+  "-sdk", "iphonesimulator",
+  "-arch", "i386"
+]
